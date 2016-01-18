@@ -1,4 +1,9 @@
 {
+    "autoload": {
+        "psr-4": {
+            "MeetupCrawler\\": "src/"
+        }
+    },
     "require": {
         "fabpot/goutte": "^3.1",
         "rtheunissen/guzzle-cache-handler": "^1.1",
