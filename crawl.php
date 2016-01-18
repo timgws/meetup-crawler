@@ -13,10 +13,6 @@ define('MEETUP_MEMBERS_URL', 'http://www.meetup.com/PerthPHP/members/');
 require __DIR__ . '/vendor/autoload.php';
 
 use MeetupCrawler\MemberList;
-use Concat\Http\Handler\CacheHandler;
-use Doctrine\Common\Cache\FilesystemCache;
-use Goutte\Client;
-use Symfony\Component\DomCrawler\Crawler;
 use MeetupCrawler\Tasks;
 
 $meetupTasks = new Tasks();
